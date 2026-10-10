@@ -1,0 +1,31 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const script=fs.readFileSync(__dirname+'/../assets/background.js','utf8');
+let time=0,id=0;const jobs=new Map(),frames=new Map(),events=[];
+const schedule=(fn,delay,repeat,args)=>{const key=++id;jobs.set(key,{fn,args,delay,repeat,at:time+Number(delay)});return key;};
+class Socket{static OPEN=1;constructor(url){this.handlers={};this.url=url;}addEventListener(type,fn){(this.handlers[type]??=[]).push(fn);}emit(type,event={}){for(const fn of this.handlers[type]??[])fn(event);}send(){throw Error('Observer must never send packets');}}
+const window={WebSocket:Socket,requestAnimationFrame(fn){const key=++id;frames.set(key,fn);return key;},cancelAnimationFrame(key){frames.delete(key);},
+ setTimeout(fn,delay,...args){return schedule(fn,delay,false,args);},setInterval(fn,delay,...args){return schedule(fn,delay,true,args);},clearTimeout(key){jobs.delete(key);},clearInterval(key){jobs.delete(key);}};
+const document={hidden:true,visibilityState:'hidden',hasFocus:()=>false,getElementById(){return null;}};
+vm.runInNewContext(script,{window,document,location:{origin:'https://lumivaraonline.com',href:'https://lumivaraonline.com/'},URL,performance:{now:()=>time},console});
+const control=window.__lumivaraFrameControl;
+const fireNative=()=>{for(const [key,j]of [...jobs])if(j.at<=time){if(j.repeat)j.at=time+j.delay;else jobs.delete(key);j.fn(...j.args);}};
+let pings=0,retries=0;const ping=window.setInterval(()=>pings++,2000);
+window.setTimeout(value=>{assert.equal(value,'argument');retries++;},1000,'argument');
+time=1000;control.nativeTick();assert.equal(retries,0,'foreground nativeTick must not touch web timers');fireNative();assert.equal(retries,1);
+control.setBackground(true);
+time=2000;control.nativeTick();assert.equal(pings,1,'background advances due network heartbeat even when native timers never execute');
+fireNative();assert.equal(pings,1,'native delivery after pulse must not duplicate an interval');
+time=4000;fireNative();control.nativeTick();assert.equal(pings,2,'pulse after native timer must not duplicate');
+time+=600000;control.nativeTick();assert.equal(pings,3,'a 10-minute gap delivers one callback, not 300 catch-up pings');
+window.clearTimeout(ping);time+=2000;control.nativeTick();fireNative();assert.equal(pings,3,'clearTimeout cancels interval using shared ID semantics');
+const cancel=window.setTimeout(()=>assert.fail('cancelled timer fired'),1000);window.clearInterval(cancel);time+=1000;control.nativeTick();fireNative();
+const cancelString=window.setTimeout(()=>assert.fail('string ID cancellation failed'),1000);window.clearTimeout(String(cancelString));time+=1000;control.nativeTick();jobs.delete(cancelString);
+window.setTimeout(()=>events.push('short'),20);time+=20;control.nativeTick();assert.deepEqual(events,[],'short UI timer is native only');fireNative();assert.deepEqual(events,['short']);
+window.setTimeout(()=>events.push('long'),60000);time+=60000;control.nativeTick();assert(!events.includes('long'),'long jobs are not assisted');fireNative();assert(events.includes('long'));
+control.setBackground(false);const normal=window.setInterval(()=>events.push('foreground'),1000);time+=1000;fireNative();time+=1000;fireNative();assert.equal(events.filter(e=>e==='foreground').length,2);window.clearInterval(normal);
+assert.equal(window.WebSocket.OPEN,1);const socket=new window.WebSocket('wss://lumivaraonline.com/api/ws?private=secret');assert(socket instanceof Socket);
+socket.emit('open');socket.emit('message',{data:'private-player-payload'});socket.emit('close',{code:1006,reason:'private-player-reason'});
+window.__onlineDiagnostics=()=>({account:'private-account-name',diag:['17:30 · หลุด #7 (code 1006 · private-reason)']});
+const snapshot=JSON.stringify(control.snapshot());assert(!snapshot.includes('private')&&!snapshot.includes('secret'),'Diagnostics must contain no URL, payload, reason or account identity');
+assert.equal(control.snapshot().gameCloseCount,7);assert.equal(control.snapshot().gameCloseCode,1006);assert.equal(control.snapshot().socketCloses,1);assert.equal(control.snapshot().lastCloseCode,1006);
+console.log('PASS: background heartbeat/retry timers run when browser timers stall, once-only timeout/interval races, cancellation/arguments, no catch-up flood, native short/long/foreground behavior and socket diagnostics without packets/identity. Simulated scheduler, not Android connectivity measurement.');

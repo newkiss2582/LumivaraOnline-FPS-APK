@@ -1,0 +1,757 @@
+[
+  {
+    "name": "floating_channel",
+    "th": "Lumivara — โหมดปุ่มลอย",
+    "en": "Lumivara — Floating game"
+  },
+  {
+    "name": "channel_description",
+    "th": "บริการเกมเบื้องหลัง กดเปิดเกมหรือหยุดได้ทุกเวลา",
+    "en": "Background game service. Open the game or stop it at any time."
+  },
+  {
+    "name": "overlay_revoked",
+    "th": "สิทธิ์แสดงทับแอปถูกปิด โปรดเปิดแอปเพื่อตั้งค่า",
+    "en": "Display over other apps is disabled. Open the app to set it up."
+  },
+  {
+    "name": "overlay_failed",
+    "th": "สร้างหน้าต่างลอยไม่ได้: ",
+    "en": "Could not create the floating window: "
+  },
+  {
+    "name": "notification_title",
+    "th": "Lumivara Online กำลังทำงาน",
+    "en": "Lumivara Online is running"
+  },
+  {
+    "name": "notification_fullscreen",
+    "th": "เต็มหน้าจอแนวนอน · กด − เพื่อย่อเป็นปุ่มลอย",
+    "en": "Landscape fullscreen · Tap − to return to the bubble"
+  },
+  {
+    "name": "notification_mini",
+    "th": "จอเล็ก · ลากมุม ◢ เพื่อปรับขนาด",
+    "en": "Mini window · Drag ◢ to resize"
+  },
+  {
+    "name": "notification_window",
+    "th": "หน้าต่างเกมเปิดอยู่ · กด ▣ เพื่อเป็นจอเล็ก",
+    "en": "Game window is open · Tap ▣ for a mini window"
+  },
+  {
+    "name": "notification_bubble",
+    "th": "โหมดปุ่มลอย · แตะไอคอนเพื่อเล่นต่อ",
+    "en": "Bubble mode · Tap the icon to continue playing"
+  },
+  {
+    "name": "open_game",
+    "th": "เปิดเกม",
+    "en": "Open game"
+  },
+  {
+    "name": "stop_mode",
+    "th": "หยุดโหมด",
+    "en": "Stop service"
+  },
+  {
+    "name": "toggle_mini",
+    "th": "สลับจอเล็กกับหน้าต่างปกติ",
+    "en": "Switch between mini and normal window"
+  },
+  {
+    "name": "bubble_description",
+    "th": "Lumivara Online — แตะเพื่อเล่นต่อ ลากเพื่อย้าย",
+    "en": "Lumivara Online — Tap to continue, drag to move"
+  },
+  {
+    "name": "resize",
+    "th": "ปรับขนาด",
+    "en": "Resize"
+  },
+  {
+    "name": "resize_width",
+    "th": "ลากปรับความกว้าง",
+    "en": "Drag to change width"
+  },
+  {
+    "name": "resize_height",
+    "th": "ลากปรับความสูง",
+    "en": "Drag to change height"
+  },
+  {
+    "name": "resize_both",
+    "th": "ลากปรับกว้างและสูงอิสระ",
+    "en": "Drag to change width and height independently"
+  },
+  {
+    "name": "https_only",
+    "th": "เปิดเฉพาะลิงก์ HTTPS ในแอป",
+    "en": "Only HTTPS links can open in the app"
+  },
+  {
+    "name": "connection_failed",
+    "th": "เชื่อมต่อเกมไม่ได้ ตรวจอินเทอร์เน็ต แล้วกดโหลดใหม่จาก ?",
+    "en": "Cannot connect to the game. Check your connection, then reload from ?"
+  },
+  {
+    "name": "renderer_recovered",
+    "th": "Android ปิดตัวแสดงผล จึงต้องโหลดเกมใหม่",
+    "en": "Android stopped the renderer, so the game had to reload"
+  },
+  {
+    "name": "loading_prefix",
+    "th": "กำลังโหลด ",
+    "en": "Loading "
+  },
+  {
+    "name": "ok",
+    "th": "ตกลง",
+    "en": "OK"
+  },
+  {
+    "name": "cancel",
+    "th": "ยกเลิก",
+    "en": "Cancel"
+  },
+  {
+    "name": "google_notice_title",
+    "th": "เริ่ม Google Login จากหน้าเกม",
+    "en": "Start Google Login from the game"
+  },
+  {
+    "name": "google_notice_body",
+    "th": "กด Sign in with Google จากหน้าเกม แล้วใช้หน้าตรวจแก้ลิงก์กลับ Google ก่อนเริ่มล็อกอิน\n\nเฉพาะหน้าของ Google เปิดด้วย Custom Tab ส่วนเกมใช้เซสชันเดิมใน APK การรับลิงก์กลับยังขึ้นกับเบราว์เซอร์และเว็บเกม",
+    "en": "Tap Sign in with Google on the game page and use Check Google return links before signing in.\n\nOnly Google opens in a Custom Tab. The game uses its existing APK session. Returning still depends on your browser and the game website."
+  },
+  {
+    "name": "back_to_game",
+    "th": "กลับไปหน้าเกม",
+    "en": "Back to game"
+  },
+  {
+    "name": "dismiss_message",
+    "th": "ปิดข้อความ",
+    "en": "Dismiss"
+  },
+  {
+    "name": "login_launch_failed",
+    "th": "เปิดหน้าล็อกอินไม่ได้ โปรดเปิดหน้าตั้งค่าแอปแล้วลองอีกครั้ง",
+    "en": "Cannot open login. Open app settings and try again."
+  },
+  {
+    "name": "google_success",
+    "th": "Google Login กลับเข้าแอปแล้ว",
+    "en": "Google Login returned to the app"
+  },
+  {
+    "name": "google_no_session",
+    "th": "ยังไม่พบเซสชัน Google ในแอป โปรดลองใหม่หรือตรวจการตั้งค่าลิงก์กลับ",
+    "en": "No Google session found in the app. Try again or check the return-link settings."
+  },
+  {
+    "name": "in_app_browser",
+    "th": "เบราว์เซอร์ในแอป",
+    "en": "In-app browser"
+  },
+  {
+    "name": "return_game",
+    "th": "กลับเกม",
+    "en": "Return to game"
+  },
+  {
+    "name": "fullscreen_failed",
+    "th": "เปิดเต็มหน้าจอไม่ได้ โปรดเปิดเกมแล้วลองอีกครั้ง",
+    "en": "Cannot open fullscreen. Open the game and try again."
+  },
+  {
+    "name": "help_title",
+    "th": "Lumivara FPS · วิธีใช้ 1.0",
+    "en": "Lumivara FPS · Help 1.0"
+  },
+  {
+    "name": "overlay_help",
+    "th": "▣ เปิดจอเล็ก / ⋮ → หน้าต่างปกติ เพื่อกลับจอปกติ\nลากชื่อเกมเพื่อย้ายหน้าต่าง\nขอบล่าง: ↔ กว้าง / ↕ สูง / ◢ ทั้งสองแนว\nปรับหน้าต่างอิสระ ไม่ล็อก 16:9\nพื้นที่เกมแยกจากปุ่มแอปและขอบปรับขนาด\n− ย่อเป็นไอคอน โดยเก็บเกมเดิม\n⛶ เปิดเต็มหน้าจอแนวนอน\nในเต็มจอ: › / ‹ พับหรือเปิดแถบข้าง\nในเต็มจอ: ▣ เปิดจอเล็ก / − ย่อเป็นไอคอน\nตัวเลือกภาษาและ dropdown เปิดเป็นรายการในเกม\n\nAndroid หรือเซิร์ฟเวอร์ยังอาจหยุดเกมได้\nGoogle Login ยังคงเป็นรุ่นทดลอง\nหน้าเว็บจากลิงก์เก็บไว้เมื่อย่อหรือเปลี่ยนโหมด\nกดกลับเกมเพื่อปิดหน้าเว็บ\nจอเล็ก: ⋮ เมนูจอ / − ย่อ / × ปิดโปรไฟล์นี้\n⋮ → จัดเรียงจออัตโนมัติ เรียงเฉพาะโปรไฟล์ที่เปิดอยู่\nจัดการ / ปิดแต่ละจอ เปิดหรือปิดตามเลขโปรไฟล์\nปิดจอ: ตัวช่วยเดินเกมจะทำงานด้วย แต่ Android อาจจำกัด CPU/เน็ตได้ อนุญาตทำงานเบื้องหลังและปิดการประหยัดแบตในตั้งค่าของเครื่อง จำนวนมอนอาจไม่เท่าตอนเปิดจอ\n⋮ → ตรวจสถานะเกมและการเชื่อมต่อ เพื่อดูรายงานของโปรไฟล์นี้\n⋮ → ตั้งจอดำของเกมเป็นไม่เปิดเอง ช่วยทดสอบแยกโหมดจอดำของเกม",
+    "en": "▣ opens a mini window / ⋮ → Normal window returns to normal size\nDrag the game title to move the window\nBottom edge: ↔ width / ↕ height / ◢ both\nResize freely without a fixed 16:9 ratio\nGame controls are separate from app buttons and resize handles\n− Return to the bubble and keep the current game\n⛶ Open landscape fullscreen\nFullscreen: › / ‹ collapse or expand the side dock\nFullscreen: ▣ mini window / − bubble\nLanguage and dropdown options open inside the game\n\nAndroid or the server may still stop the game\nGoogle Login remains experimental\nLink pages stay open when minimized or changing modes.\nTap Return to game to close the page.\nMini window: ⋮ menu / − minimize / × close this profile\n⋮ → Arrange windows automatically tiles only running profiles\nManage / close windows opens or closes profiles by number\nScreen off: frame fallback stays active, but Android may restrict CPU/network. Allow background activity and disable battery saver in device settings. Kill counts may differ from screen-on play.\n⋮ → Game and connection diagnostics for this profile\n⋮ → Disable automatic game dark screen to test without the game saver."
+  },
+  {
+    "name": "reload_game",
+    "th": "โหลดเกมใหม่",
+    "en": "Reload game"
+  },
+  {
+    "name": "stop_confirm_title",
+    "th": "ปิดเกมและบริการ?",
+    "en": "Close the game and service?"
+  },
+  {
+    "name": "stop_confirm_body",
+    "th": "ปุ่ม × จะปิดเกมจริง หากต้องการเล่นต่อเบื้องหลัง ให้กด − แทน",
+    "en": "× closes the game. To keep playing in the background, use − instead."
+  },
+  {
+    "name": "close_game",
+    "th": "ปิดเกม",
+    "en": "Close game"
+  },
+  {
+    "name": "start_before_fullscreen",
+    "th": "เปิดโหมดปุ่มลอยก่อนเข้าเต็มหน้าจอ",
+    "en": "Start floating mode before opening fullscreen"
+  },
+  {
+    "name": "fold_dock",
+    "th": "ซ่อนหรือแสดงแถบควบคุม",
+    "en": "Collapse or expand the controls"
+  },
+  {
+    "name": "fullscreen_to_mini",
+    "th": "เปิดเกมเป็นจอเล็กลอย",
+    "en": "Open the game in a floating mini window"
+  },
+  {
+    "name": "fullscreen_to_bubble",
+    "th": "ย่อเป็นปุ่มลอยและเก็บเกมเดิม",
+    "en": "Return to the bubble and keep the current game"
+  },
+  {
+    "name": "login_link_settings",
+    "th": "ตรวจแก้ลิงก์กลับ Google",
+    "en": "Check Google return links"
+  },
+  {
+    "name": "begin_google_login",
+    "th": "เริ่ม Google Login",
+    "en": "Start Google Login"
+  },
+  {
+    "name": "login_back",
+    "th": "กลับเข้าเกม",
+    "en": "Back to game"
+  },
+  {
+    "name": "login_instructions",
+    "th": "เข้าสู่ระบบ Google\n\n1. กดตรวจแก้ลิงก์กลับ Google หากยังไม่ได้ตั้งค่า\n2. เมื่อสถานะพร้อม กดเริ่ม Google Login\n3. เลือกบัญชีในหน้าของ Google แล้วรอกลับเข้าเกม\n\nเฉพาะหน้า Google ใช้ Custom Tab ของเบราว์เซอร์ระบบ เกมอยู่ใน APK เดิม การรับผลกลับขึ้นกับเบราว์เซอร์และการรองรับของเว็บเกม",
+    "en": "Google Login\n\n1. Use Check Google return links if setup is incomplete.\n2. When ready, tap Begin Google Login.\n3. Choose your Google account and wait to return to the game.\n\nOnly Google uses a system-browser Custom Tab. The game stays in the APK. Returning depends on your browser and game website support."
+  },
+  {
+    "name": "login_links_disabled",
+    "th": "ยังรับลิงก์ Google กลับเข้าแอปไม่ได้\n\nกดตรวจแก้ลิงก์กลับ Google ถ้าโดเมนเป็นสีเทาหรือมีชื่อแอปอื่น ต้องเอาโดเมนออกจากแอปนั้นก่อน แล้วเปิดให้ Lumivara Online\n\nGuest Login และโหมดเกมใช้ได้โดยไม่ตั้งค่าลิงก์ Google",
+    "en": "Google return links are not ready.\n\nTap Check Google return links. If the domain is grey or shows another app, remove this domain from that app first, then enable it for Lumivara Online.\n\nGuest Login and game modes do not require Google return-link setup."
+  },
+  {
+    "name": "login_start_from_game",
+    "th": "เปิดโหมดเกมก่อน แล้วกด Sign in with Google ในหน้าเกมอีกครั้ง",
+    "en": "Open floating mode, then tap Sign in with Google in the game again."
+  },
+  {
+    "name": "login_preparing",
+    "th": "กำลังเตรียม Google Login จากเซสชันของแอป…",
+    "en": "Preparing Google Login from the app session…"
+  },
+  {
+    "name": "login_prepare_failed",
+    "th": "เตรียม Google Login ไม่สำเร็จ ตรวจอินเทอร์เน็ตแล้วลองใหม่",
+    "en": "Could not prepare Google Login. Check your connection and try again."
+  },
+  {
+    "name": "login_cookie_failed",
+    "th": "เก็บเซสชันล็อกอินไม่ได้ กรุณาลองใหม่",
+    "en": "Could not save the login session. Please try again."
+  },
+  {
+    "name": "login_waiting",
+    "th": "รอ Google Login กลับเข้าแอป…\n\nถ้าค้างในเบราว์เซอร์ ให้กลับมาหน้านี้และกดตรวจแก้ลิงก์กลับ Google จากนั้นเริ่มล็อกอินใหม่ ถ้าสถานะพร้อมแต่ยังไม่กลับ เบราว์เซอร์หรือเว็บเกมอาจยังไม่รองรับการส่งผลเข้า APK\n\nเซสชันในเบราว์เซอร์กับแอปแยกกัน ไม่ต้องคัดลอกรหัสหรือ URL ล็อกอินมาส่งในแชต",
+    "en": "Waiting for Google to return to the app…\n\nIf it stays in the browser, return here, check Google return links, then start a fresh login. If links are ready but it still stays there, your browser or the game website may not support returning to this APK.\n\nBrowser and app sessions are separate. Do not send login codes or URLs in chat."
+  },
+  {
+    "name": "login_browser_missing",
+    "th": "ไม่พบเบราว์เซอร์สำหรับ Google Login โปรดติดตั้งหรืออัปเดต Chrome แล้วลองอีกครั้ง",
+    "en": "No browser available for Google Login. Install or update Chrome and try again."
+  },
+  {
+    "name": "login_callback_rejected",
+    "th": "คำขอล็อกอินไม่ตรงกันหรือหมดอายุ โปรดเริ่ม Google Login จากในเกมอีกครั้ง",
+    "en": "The login request does not match or has expired. Start Google Login from the game again."
+  },
+  {
+    "name": "app_subtitle",
+    "th": "รุ่นเน้น FPS · หนึ่งจอ / หนึ่งไอดี",
+    "en": "FPS edition · One screen / one account"
+  },
+  {
+    "name": "setup_intro",
+    "th": "ตั้งค่าสิทธิ์ก่อนเริ่ม\nแตะปุ่มลอยเพื่อเปิดเกมเดิม กดปุ่มย่อเพื่อกลับเป็นไอคอน โดยไม่ปิดหน้าเกม",
+    "en": "Set up permissions before starting.\nTap the bubble to reopen the current game. Minimize back to the icon without closing the game."
+  },
+  {
+    "name": "permission_overlay",
+    "th": "1  อนุญาตแสดงทับแอปอื่น",
+    "en": "1  Allow display over other apps"
+  },
+  {
+    "name": "permission_notifications",
+    "th": "2  อนุญาตการแจ้งเตือน",
+    "en": "2  Allow notifications"
+  },
+  {
+    "name": "notifications_already_available",
+    "th": "Android รุ่นนี้เปิดการแจ้งเตือนได้อยู่แล้ว",
+    "en": "Notifications are already available on this Android version"
+  },
+  {
+    "name": "permission_battery",
+    "th": "3  อนุญาตทำงานเบื้องหลัง / แบตเตอรี่",
+    "en": "3  Allow background activity / battery"
+  },
+  {
+    "name": "battery_already_exempt",
+    "th": "ยกเว้นการประหยัดแบตแล้ว",
+    "en": "Battery optimization is already disabled"
+  },
+  {
+    "name": "battery_dialog_title",
+    "th": "ทำงานต่อขณะเป็นปุ่มลอย",
+    "en": "Keep running in bubble mode"
+  },
+  {
+    "name": "battery_dialog_body",
+    "th": "โหมดนี้ใช้แบตเตอรี่และอินเทอร์เน็ตมากขึ้น ให้ Android ยกเว้นการประหยัดแบตสำหรับแอปนี้หรือไม่?",
+    "en": "This mode uses more battery and data. Allow Android to exclude this app from battery optimization?"
+  },
+  {
+    "name": "open_settings",
+    "th": "เปิดการตั้งค่า",
+    "en": "Open settings"
+  },
+  {
+    "name": "permission_login_links",
+    "th": "4  ตรวจแก้ลิงก์กลับ Google (สำหรับ Google Login)",
+    "en": "4  Check Google return links (for Google Login)"
+  },
+  {
+    "name": "login_return_title",
+    "th": "รับ Google Login กลับเข้าแอป",
+    "en": "Return Google Login to the app"
+  },
+  {
+    "name": "login_return_body",
+    "th": "หากเลือก lumivaraonline.com ไม่ได้ ให้ตรวจแอปที่รับลิงก์นี้อยู่ก่อน แล้วเปิดให้ Lumivara Online ในหน้าช่วยตั้งค่า ไม่ต้องถอนการติดตั้งหรือล้างข้อมูล",
+    "en": "If lumivaraonline.com cannot be selected, check the app already handling this domain, then enable it for Lumivara Online using the setup guide. No uninstall or data clearing is needed."
+  },
+  {
+    "name": "start_bubble",
+    "th": "เริ่มโหมดปุ่มลอย",
+    "en": "Start bubble mode"
+  },
+  {
+    "name": "resume_game",
+    "th": "เปิดหน้าเกม / เล่นต่อ",
+    "en": "Open game / Continue playing"
+  },
+  {
+    "name": "start_mini",
+    "th": "เปิดเกมแบบจอเล็กลอย",
+    "en": "Open floating mini window"
+  },
+  {
+    "name": "stop_game_service",
+    "th": "หยุดโหมดและปิดเกม",
+    "en": "Stop service and close game"
+  },
+  {
+    "name": "performance_note",
+    "th": "FPS สูงสุดขึ้นกับจอ ชิป ความร้อน และการตั้งค่าเครื่อง ไม่รับประกัน FPS คงที่",
+    "en": "Maximum FPS depends on display, hardware, heat and system settings; a fixed FPS is not guaranteed."
+  },
+  {
+    "name": "main_help",
+    "th": "เล่นเกมได้หนึ่งจอ / หนึ่งไอดี\nตั้งค่า FPS สูงสุด, 120 หรือ 60 ในหน้าหลัก\nความละเอียด 85% เป็นค่าเริ่มต้น; 70% ลดภาระวาดภาพ; 100% ภาพเต็มความละเอียด\nเล่นเต็มจอแนวนอนจากหน้าหลักหรือปุ่ม ⛶\n▣ จอเล็ก / − ปุ่มลอย / × ปิดเกม\nลากชื่อเกมเพื่อย้ายหน้าต่าง; ↔ / ↕ / ◢ ปรับขนาด\nในเต็มจอ › / ‹ พับแถบปุ่ม; ปุ่มไม่ทับพื้นที่เกม\nเลือกภาษาเมนู TH / EN จากหน้าหลัก\nใช้ FPS ในเกมเพื่อดูผลจริง; รีเฟรชเรตจอไม่ใช่ค่า FPS ที่รับประกัน\nจอเล็ก: ⋮ → ข้อมูลเกมและการเชื่อมต่อ เก็บค่าเมื่อเปิดเท่านั้น\nปิดจอหรือซ่อนเกม Android อาจจำกัดการทำงานและเครือข่าย\nGoogle Login ใช้เบราว์เซอร์ที่ระบบรองรับ แล้วกลับมาเล่นในแอป",
+    "en": "One game screen / one account\nChoose Maximum, 120 or 60 FPS on the main page\nDefault render resolution is 85%; 70% reduces rendering load; 100% uses full resolution\nStart landscape fullscreen from the main page or ⛶\n▣ mini window / − bubble / × close game\nDrag the title to move; ↔ / ↕ / ◢ resize\nFullscreen: › / ‹ fold the separate side dock\nApp menu languages: TH / EN\nUse the game FPS counter to see actual results; display refresh rate does not guarantee game FPS\nMini window: ⋮ → diagnostics samples only when opened\nAndroid may restrict processing/network when hidden or screen-off\nGoogle Login uses a supported system browser and returns to the app"
+  },
+  {
+    "name": "oem_battery_note",
+    "th": "สำหรับ Samsung / Xiaomi / OPPO / vivo ให้ตั้งแบตเตอรี่เป็น “ไม่จำกัด” และอนุญาตเริ่มทำงานอัตโนมัติถ้ามี แอปไม่ปิดเกมเมื่อปัดหน้าตั้งค่าออกจาก Recent Apps แต่เครื่องบางรุ่นยังหยุดบริการได้",
+    "en": "For Samsung / Xiaomi / OPPO / vivo, set battery usage to Unrestricted and enable auto-start if available. Dismissing app settings from Recent Apps does not close the game, but some phones may still stop the service."
+  },
+  {
+    "name": "engine_auth_note",
+    "th": "ใช้ Android System WebView ที่มีอยู่ในเครื่อง ลิงก์ทั่วไปเปิดในแอป และคืนทรัพยากรเมื่อปิดหน้าลิงก์ ส่วนหน้าเกมเดิมยังอยู่\n\nGoogle Login: ขั้นตอน 4 ช่วยตรวจและแก้แอปที่รับลิงก์ชนกัน เลือกบัญชีผ่าน Custom Tab แล้วรับผลกลับเข้าเซสชัน APK เดิม เมื่อเครื่องและเบราว์เซอร์ส่งลิงก์กลับได้\n\nยังไม่ได้ทดสอบล็อกอินจริงบนมือถือ อาจต้องแก้การเชื่อมระบบฝั่งเว็บเกมเพิ่มเติม\n\nAndroid ยังอาจหยุดบริการจากการบังคับหยุด หน่วยความจำไม่พอ หรือข้อจำกัดแบตเตอรี่",
+    "en": "Uses your installed Android System WebView. General links open in the app and release resources when closed; the original game page stays alive.\n\nGoogle Login: step 4 helps identify conflicting link handlers. Choose your account in a Custom Tab, then return to the existing APK session when the device and browser support the return link.\n\nReal device login has not been verified. The game website may require additional integration.\n\nAndroid can still stop the service after Force stop, memory pressure or battery restrictions."
+  },
+  {
+    "name": "open_settings_manually",
+    "th": "เปิดการตั้งค่าแอปด้วยตนเอง",
+    "en": "Open app settings manually"
+  },
+  {
+    "name": "overlay_required",
+    "th": "กรุณาอนุญาตแสดงทับแอปอื่นในขั้นตอน 1 ก่อน",
+    "en": "Allow display over other apps in step 1 first"
+  },
+  {
+    "name": "notifications_required",
+    "th": "อนุญาตการแจ้งเตือน แล้วกดเริ่มอีกครั้ง",
+    "en": "Allow notifications, then tap Start again"
+  },
+  {
+    "name": "service_start_failed",
+    "th": "เริ่มบริการไม่ได้: ",
+    "en": "Could not start the service: "
+  },
+  {
+    "name": "status_overlay",
+    "th": "แสดงทับแอป: ",
+    "en": "Display over apps: "
+  },
+  {
+    "name": "ready",
+    "th": "พร้อม",
+    "en": "Ready"
+  },
+  {
+    "name": "not_allowed",
+    "th": "ยังไม่อนุญาต",
+    "en": "Not allowed"
+  },
+  {
+    "name": "status_notifications",
+    "th": "\nการแจ้งเตือน: ",
+    "en": "\nNotifications: "
+  },
+  {
+    "name": "status_battery",
+    "th": "\nยกเว้นประหยัดแบต: ",
+    "en": "\nBattery exemption: "
+  },
+  {
+    "name": "not_exempt",
+    "th": "ยังไม่ยกเว้น",
+    "en": "Not exempt"
+  },
+  {
+    "name": "status_service",
+    "th": "\nบริการ: ",
+    "en": "\nService: "
+  },
+  {
+    "name": "running",
+    "th": "กำลังทำงาน",
+    "en": "Running"
+  },
+  {
+    "name": "not_started",
+    "th": "ยังไม่เริ่ม",
+    "en": "Not started"
+  },
+  {
+    "name": "app_language",
+    "th": "ภาษาแอป",
+    "en": "App language"
+  },
+  {
+    "name": "language_picker_title",
+    "th": "เลือกภาษาแอป",
+    "en": "Choose app language"
+  },
+  {
+    "name": "language_system",
+    "th": "ตามภาษาเครื่อง",
+    "en": "System default"
+  },
+  {
+    "name": "language_thai",
+    "th": "ภาษาไทย",
+    "en": "ภาษาไทย"
+  },
+  {
+    "name": "language_english",
+    "th": "English",
+    "en": "English"
+  },
+  {
+    "name": "language_scope",
+    "th": "เปลี่ยนเฉพาะเมนูแอป ภาษาในเกมให้เลือกจากตั้งค่าเกม",
+    "en": "Changes app menus only. Choose the game language in game settings."
+  },
+  {
+    "name": "help_description",
+    "th": "วิธีใช้และโหลดเกมใหม่",
+    "en": "Help and reload game"
+  },
+  {
+    "name": "fullscreen_description",
+    "th": "เปิดเต็มหน้าจอแนวนอน",
+    "en": "Open landscape fullscreen"
+  },
+  {
+    "name": "collapse_description",
+    "th": "ย่อเป็นปุ่มลอยและเก็บเกมเดิม",
+    "en": "Return to the bubble and keep the current game"
+  },
+  {
+    "name": "close_description",
+    "th": "ปิดเกมและบริการ",
+    "en": "Close game and service"
+  },
+  {
+    "name": "donate_button",
+    "th": "☕ DONATE ค่ากาแฟ",
+    "en": "☕ DONATE · Coffee"
+  },
+  {
+    "name": "donate_title",
+    "th": "☕ ค่ากาแฟ",
+    "en": "☕ Buy me a coffee"
+  },
+  {
+    "name": "donate_welcome",
+    "th": "แล้วแต่ที่ให้เลยนะค้าบ ☕\nขอบคุณสำหรับกำลังใจครับ",
+    "en": "Any amount is welcome ☕\nThank you for your support."
+  },
+  {
+    "name": "donate_scan_instructions",
+    "th": "สแกน QR ด้วยแอปธนาคาร แล้วใส่จำนวนเงินตามสะดวก\nใช้มือถือเครื่องเดียวกัน: บันทึก QR แล้วเลือกรูปนี้ในแอปธนาคาร",
+    "en": "Scan the QR with your banking app and enter any amount you like.\nOn the same phone: save the QR, then select the image in your banking app."
+  },
+  {
+    "name": "donate_save",
+    "th": "บันทึก QR",
+    "en": "Save QR image"
+  },
+  {
+    "name": "donate_back",
+    "th": "กลับหน้าตั้งค่า",
+    "en": "Back to settings"
+  },
+  {
+    "name": "donate_qr_description",
+    "th": "QR ค่ากาแฟจากภาพที่ผู้พัฒนาให้ไว้",
+    "en": "Coffee support QR image supplied by the developer"
+  },
+  {
+    "name": "donate_image_failed",
+    "th": "เปิดภาพ QR ไม่สำเร็จ กรุณาปิดหน้านี้แล้วลองใหม่",
+    "en": "Could not open the QR image. Close this page and try again."
+  },
+  {
+    "name": "donate_saved",
+    "th": "บันทึก QR แล้ว เปิดแอปธนาคารและเลือกสแกนจากรูปภาพได้เลยครับ",
+    "en": "QR saved. Open your banking app and choose scan from an image."
+  },
+  {
+    "name": "donate_save_failed",
+    "th": "บันทึก QR ไม่สำเร็จ กรุณาลองอีกครั้ง",
+    "en": "Could not save the QR image. Please try again."
+  },
+  {
+    "name": "installation_video",
+    "th": "▶ คลิปสอนติดตั้งและตั้งค่า",
+    "en": "▶ Installation and setup video"
+  },
+  {
+    "name": "installation_video_title",
+    "th": "วิธีติดตั้งและตั้งค่า",
+    "en": "Installation and setup"
+  },
+  {
+    "name": "installation_video_replay",
+    "th": "เล่นซ้ำ",
+    "en": "Replay"
+  },
+  {
+    "name": "installation_video_back",
+    "th": "กลับหน้าตั้งค่า",
+    "en": "Back to settings"
+  },
+  {
+    "name": "installation_video_error",
+    "th": "เล่นคลิปไม่ได้บนเครื่องนี้ กรุณากดเล่นซ้ำเพื่อลองอีกครั้ง",
+    "en": "This device could not play the video. Tap Replay to try again."
+  },
+  {
+    "name": "installation_video_hint",
+    "th": "แตะวิดีโอเพื่อแสดงปุ่มเล่น/หยุดและแถบเลื่อน • คลิปนี้มีคำอธิบายภาษาไทย",
+    "en": "Tap the video for play/pause and seeking controls. The tutorial is in Thai."
+  },
+  {
+    "name": "link_status_ready",
+    "th": "สถานะ: พร้อมรับลิงก์ lumivaraonline.com",
+    "en": "Status: ready to handle lumivaraonline.com"
+  },
+  {
+    "name": "link_status_disabled",
+    "th": "สถานะ: ปิดการรับลิงก์สำหรับ APK นี้อยู่",
+    "en": "Status: link handling for this APK is turned off"
+  },
+  {
+    "name": "link_status_unselected",
+    "th": "สถานะ: ยังไม่ได้เลือก lumivaraonline.com ให้ APK นี้",
+    "en": "Status: lumivaraonline.com is not selected for this APK"
+  },
+  {
+    "name": "link_status_unknown",
+    "th": "สถานะ: Android ไม่ส่งข้อมูลการรับลิงก์ กรุณาตรวจด้วยตนเอง",
+    "en": "Status: Android did not provide link state; check it manually"
+  },
+  {
+    "name": "link_status_legacy",
+    "th": "Android รุ่นนี้ไม่มีสถานะยืนยันลิงก์แบบใหม่ อาจต้องเลือกเปิดด้วย Lumivara Online เมื่อล็อกอินกลับ",
+    "en": "This Android version does not expose modern link-verification status. You may need to choose Lumivara Online when returning from login."
+  },
+  {
+    "name": "link_conflict_help",
+    "th": "ถ้าโดเมนเป็นสีเทาและเขียนว่า “เปิดใน Lumivara” หรือชื่อแอปอื่น แสดงว่าอาจมีแอปนั้นรับลิงก์อยู่ Android ให้แอปเดียวรับโดเมนเดียวกัน\n\nปิดการรับโดเมนนี้ของแอปเดิมก่อน แล้วค่อยเปิดให้ Lumivara Online ไม่ต้องลบแอปหรือล้างข้อมูล",
+    "en": "If the domain is grey and says “Open in Lumivara” or another app name, that app may already handle it. Android assigns a domain to one app at a time.\n\nRemove this domain from the previous app first, then enable it for Lumivara Online. Do not uninstall apps or clear their data."
+  },
+  {
+    "name": "link_other_apps",
+    "th": "แอปอื่นที่รับโดเมนนี้อยู่",
+    "en": "Other apps currently handling this domain"
+  },
+  {
+    "name": "link_open_other",
+    "th": "1  ตั้งค่าลิงก์ของแอปเดิม",
+    "en": "1  Open the previous app’s link settings"
+  },
+  {
+    "name": "link_other_instructions",
+    "th": "ในหน้าตั้งค่าของแอปนี้ เอา lumivaraonline.com ออกจากรายการลิงก์ที่เปิด หากเครื่องไม่มีตัวเลือกแยกโดเมน ให้ปิด “เปิดลิงก์ที่รองรับ” ของแอปนี้\n\nการเปลี่ยนนี้กระทบการเปิดลิงก์เข้าแอปเดิม จากนั้นกดย้อนกลับมาที่ Lumivara Online",
+    "en": "In this app’s settings, remove lumivaraonline.com from its supported links. If your device has no domain-specific option, turn off Open supported links for this app.\n\nThis changes which app opens those web links. Then return to Lumivara Online."
+  },
+  {
+    "name": "link_no_other_detected",
+    "th": "ไม่พบแอปที่ชนกันจากข้อมูลที่ Android อนุญาตให้ตรวจ หากหน้าระบบแสดงชื่อแอปอื่น ให้ไปตั้งค่าลิงก์ของแอปชื่อนั้นด้วยตนเอง",
+    "en": "No conflicting app was found in the data Android permits this APK to inspect. If system settings show another app name, open that app’s link settings manually."
+  },
+  {
+    "name": "link_open_this",
+    "th": "2  เปิดลิงก์ให้ Lumivara Online",
+    "en": "2  Enable links for Lumivara Online"
+  },
+  {
+    "name": "link_this_instructions",
+    "th": "เปิด “เปิดลิงก์ที่รองรับ” → เพิ่มลิงก์ → เลือก lumivaraonline.com → เพิ่ม แล้วกดย้อนกลับ หน้านี้จะตรวจสถานะใหม่ให้\n\nตั้งค่านี้เฉพาะการใช้ Google Login เล่นแบบ Guest ได้โดยข้ามขั้นตอนนี้",
+    "en": "Turn on Open supported links → Add link → select lumivaraonline.com → Add. Return here and the status refreshes automatically.\n\nThis setup is for Google Login. Guest play can skip it."
+  },
+  {
+    "name": "link_recheck",
+    "th": "ตรวจสถานะอีกครั้ง",
+    "en": "Check status again"
+  },
+  {
+    "name": "link_still_disabled",
+    "th": "ถ้ายังเลือกไม่ได้ทั้งที่ปิดแอปเดิมแล้ว ให้ตรวจหน้าตั้งค่าข้อมูลแอปของเครื่อง การยืนยันอัตโนมัติต้องรองรับจากเว็บเกมด้วย แอปไม่สามารถเปิดสิทธิ์นี้แทนคุณได้",
+    "en": "If it is still unavailable after disabling the previous handler, check your device’s App info settings. Automatic verification also requires game website support. This APK cannot grant itself link handling."
+  },
+  {
+    "name": "link_done",
+    "th": "กลับไปหน้าก่อนหน้า",
+    "en": "Return to previous screen"
+  },
+  {
+    "name": "browser_renderer_closed",
+    "th": "Android ปิดตัวแสดงผลของหน้าเว็บนี้ กรุณาเปิดลิงก์อีกครั้ง",
+    "en": "Android stopped this web page renderer. Please open the link again."
+  },
+  {
+    "name": "normal_window",
+    "th": "หน้าต่างปกติ",
+    "en": "Normal window"
+  },
+  {
+    "name": "window_actions",
+    "th": "เมนูจอ: จัดเรียง จัดการ และเต็มจอ",
+    "en": "Window menu: arrange, manage and fullscreen"
+  },
+  {
+    "name": "arrange_none",
+    "th": "เปิดเกมก่อนเพื่อดูข้อมูล",
+    "en": "Open the game first to view diagnostics."
+  },
+  {
+    "name": "arrange_done",
+    "th": "จัดเรียงจอที่เปิดอยู่แล้ว ลากหรือปรับขนาดต่อได้",
+    "en": "Running windows arranged. You can still drag or resize them."
+  },
+  {
+    "name": "arrange_failed",
+    "th": "จัดเรียงบางจอไม่ได้ พื้นที่อาจเล็กเกินไปหรือจอถูกปิดระหว่างจัดเรียง ลองหมุนจอหรือเปิดจอน้อยลงแล้วกดจัดเรียงใหม่",
+    "en": "Some windows could not be arranged. The screen may be too small, or a profile closed during arrangement. Rotate the device or use fewer windows, then try again."
+  },
+  {
+    "name": "diagnostics",
+    "th": "ตรวจสถานะเกมและการเชื่อมต่อ",
+    "en": "Game and connection diagnostics"
+  },
+  {
+    "name": "diagnostics_help",
+    "th": "บันทึกข้อมูลเมื่อกดเปิดเท่านั้น ไม่มีการเก็บประวัติตลอดเวลาระหว่างเล่น · เปิดอีกครั้งเพื่อดูค่าที่เก็บครั้งล่าสุด",
+    "en": "Samples only when opened; no continuous logging during play. Reopen to view the latest captured values."
+  },
+  {
+    "name": "copy_report",
+    "th": "คัดลอกรายงาน",
+    "en": "Copy report"
+  },
+  {
+    "name": "report_copied",
+    "th": "คัดลอกรายงานแล้ว",
+    "en": "Report copied"
+  },
+  {
+    "name": "saver_setting",
+    "th": "ตั้งจอดำของเกมเป็นไม่เปิดเอง",
+    "en": "Disable automatic game dark screen"
+  },
+  {
+    "name": "saver_explanation",
+    "th": "ตั้งตัวเลือกจอดำประหยัดแบตในเกมเป็น “ไม่เปิดเอง” สำหรับโปรไฟล์นี้ เพื่อทดสอบแยกจากการปิดหน้าจอมือถือ\nถ้าจอดำเปิดอยู่ ให้แตะ 2 ครั้งในเกมเพื่อกลับก่อน การตั้งนี้ไม่รับประกันเน็ตเบื้องหลังและอาจใช้แบตมากขึ้น",
+    "en": "Set the game dark-screen preference to “off” for this profile to test separately from device screen-off.\nIf the dark screen is active, double-tap it in the game first. This cannot guarantee background connectivity and may use more battery."
+  },
+  {
+    "name": "saver_apply",
+    "th": "ตั้งเป็นไม่เปิดเอง",
+    "en": "Set to off"
+  },
+  {
+    "name": "saver_applied",
+    "th": "ตั้งจอดำของเกมเป็นไม่เปิดเองแล้ว ถ้าเปิดอยู่ให้แตะสองครั้งเพื่อออก",
+    "en": "Automatic game dark screen disabled. Double-tap in the game to exit if already active."
+  },
+  {
+    "name": "saver_unavailable",
+    "th": "ยังไม่พบตัวเลือกนี้ เปิดเกมให้โหลดเสร็จหรือใช้การตั้งค่าในเกมก่อน",
+    "en": "Setting not available yet. Finish loading the game or use its settings."
+  },
+  {
+    "name": "fps_intro",
+    "th": "เปิดเกมเพียงหนึ่งจอ ใช้การเรนเดอร์ด้วยฮาร์ดแวร์ พร้อมตั้งค่า FPS และความละเอียดภาพ",
+    "en": "One game screen with hardware rendering, FPS and render-resolution settings."
+  },
+  {
+    "name": "fps_setting",
+    "th": "จำกัด FPS",
+    "en": "FPS limit"
+  },
+  {
+    "name": "fps_max",
+    "th": "สูงสุด (ไม่จำกัด)",
+    "en": "Maximum (uncapped)"
+  },
+  {
+    "name": "fps_play",
+    "th": "เล่นเต็มจอแนวนอน",
+    "en": "Play landscape fullscreen"
+  },
+  {
+    "name": "render_setting",
+    "th": "ความละเอียดเรนเดอร์",
+    "en": "Render resolution"
+  },
+  {
+    "name": "render_help",
+    "th": "ค่าเริ่มต้น 85% · 70% ลดภาระการวาดภาพมากขึ้น แต่ภาพและตัวอักษรอาจเปลี่ยนขนาด · 100% ภาพละเอียดที่สุด",
+    "en": "Default 85%. 70% reduces rendering load further but image/text layout may change. 100% gives full resolution."
+  }
+]

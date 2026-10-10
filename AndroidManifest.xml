@@ -1,0 +1,32 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.lumivaraonline.fps" android:versionCode="1" android:versionName="1.0.0">
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="36" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+  <queries><intent><action android:name="android.support.customtabs.action.CustomTabsService" /></intent><intent><action android:name="android.intent.action.VIEW" /><data android:scheme="https" /></intent></queries>
+  <application android:name=".ProfileApplication" android:label="Lumivara Online FPS" android:appCategory="game" android:icon="@drawable/game_icon" android:theme="@style/AppTheme" android:hardwareAccelerated="true" android:allowBackup="false" android:usesCleartextTraffic="false" android:supportsRtl="true">
+    <activity android:name=".MainActivity" android:exported="true">
+      <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+    </activity>
+    <activity android:name=".GoogleLoginActivity" android:exported="false" />
+    <activity android:name=".ReturnLinkActivity" android:exported="false" />
+    <activity android:name=".InstallationVideoActivity" android:exported="false" android:screenOrientation="fullSensor" android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden" />
+    <activity android:name=".DonateActivity" android:exported="false" />
+    <activity android:name=".GameFullscreenActivity" android:exported="false" android:launchMode="singleTop" android:screenOrientation="sensorLandscape" android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden" android:resizeableActivity="true" android:enableOnBackInvokedCallback="false" />
+    <activity android:name=".LoginCallbackActivity" android:exported="true" android:launchMode="singleTop" android:excludeFromRecents="true">
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW" /><category android:name="android.intent.category.DEFAULT" /><category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="https" android:host="lumivaraonline.com" android:path="/auth/google/callback" />
+      </intent-filter>
+    </activity>
+    <service android:name=".FloatingGameService" android:exported="false" android:stopWithTask="false" android:foregroundServiceType="specialUse">
+      <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="User-started persistent floating online-game WebView with draggable overlay bubble, explicit stop action and ongoing notification." />
+    </service>
+    <provider android:name=".LanguageProvider" android:authorities="com.lumivaraonline.fps.menu-language" android:exported="false" />
+  </application>
+</manifest>

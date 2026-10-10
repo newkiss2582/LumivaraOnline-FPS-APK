@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.lumivaraonline.fps",
+      "sha256_cert_fingerprints": [
+        "E7:B3:D1:FE:05:BC:D9:6A:6B:DC:15:48:65:31:00:78:6A:25:1E:2B:A1:F3:29:82:4E:75:63:3E:C8:8C:F7:1D"
+      ]
+    }
+  }
+]

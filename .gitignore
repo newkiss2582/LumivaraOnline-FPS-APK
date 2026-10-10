@@ -1,0 +1,11 @@
+/build/
+/node_modules/
+/private-signing/
+/.cache/
+*.apk
+*.idsig
+*.jks
+*.keystore
+*.pem
+*.p12
+signing-password*

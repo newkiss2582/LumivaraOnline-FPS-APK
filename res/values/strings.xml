@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="floating_channel" formatted="false">Lumivara — Floating game</string>
+<string name="channel_description" formatted="false">Background game service. Open the game or stop it at any time.</string>
+<string name="overlay_revoked" formatted="false">Display over other apps is disabled. Open the app to set it up.</string>
+<string name="overlay_failed" formatted="false">Could not create the floating window: </string>
+<string name="notification_title" formatted="false">Lumivara Online is running</string>
+<string name="notification_fullscreen" formatted="false">Landscape fullscreen · Tap − to return to the bubble</string>
+<string name="notification_mini" formatted="false">Mini window · Drag ◢ to resize</string>
+<string name="notification_window" formatted="false">Game window is open · Tap ▣ for a mini window</string>
+<string name="notification_bubble" formatted="false">Bubble mode · Tap the icon to continue playing</string>
+<string name="open_game" formatted="false">Open game</string>
+<string name="stop_mode" formatted="false">Stop service</string>
+<string name="toggle_mini" formatted="false">Switch between mini and normal window</string>
+<string name="bubble_description" formatted="false">Lumivara Online — Tap to continue, drag to move</string>
+<string name="resize" formatted="false">Resize</string>
+<string name="resize_width" formatted="false">Drag to change width</string>
+<string name="resize_height" formatted="false">Drag to change height</string>
+<string name="resize_both" formatted="false">Drag to change width and height independently</string>
+<string name="https_only" formatted="false">Only HTTPS links can open in the app</string>
+<string name="connection_failed" formatted="false">Cannot connect to the game. Check your connection, then reload from ?</string>
+<string name="renderer_recovered" formatted="false">Android stopped the renderer, so the game had to reload</string>
+<string name="loading_prefix" formatted="false">Loading </string>
+<string name="ok" formatted="false">OK</string>
+<string name="cancel" formatted="false">Cancel</string>
+<string name="google_notice_title" formatted="false">Start Google Login from the game</string>
+<string name="google_notice_body" formatted="false">Tap Sign in with Google on the game page and use Check Google return links before signing in.
+
+Only Google opens in a Custom Tab. The game uses its existing APK session. Returning still depends on your browser and the game website.</string>
+<string name="back_to_game" formatted="false">Back to game</string>
+<string name="dismiss_message" formatted="false">Dismiss</string>
+<string name="login_launch_failed" formatted="false">Cannot open login. Open app settings and try again.</string>
+<string name="google_success" formatted="false">Google Login returned to the app</string>
+<string name="google_no_session" formatted="false">No Google session found in the app. Try again or check the return-link settings.</string>
+<string name="in_app_browser" formatted="false">In-app browser</string>
+<string name="return_game" formatted="false">Return to game</string>
+<string name="fullscreen_failed" formatted="false">Cannot open fullscreen. Open the game and try again.</string>
+<string name="help_title" formatted="false">Lumivara FPS · Help 1.0</string>
+<string name="overlay_help" formatted="false">▣ opens a mini window / ⋮ → Normal window returns to normal size
+Drag the game title to move the window
+Bottom edge: ↔ width / ↕ height / ◢ both
+Resize freely without a fixed 16:9 ratio
+Game controls are separate from app buttons and resize handles
+− Return to the bubble and keep the current game
+⛶ Open landscape fullscreen
+Fullscreen: › / ‹ collapse or expand the side dock
+Fullscreen: ▣ mini window / − bubble
+Language and dropdown options open inside the game
+
+Android or the server may still stop the game
+Google Login remains experimental
+Link pages stay open when minimized or changing modes.
+Tap Return to game to close the page.
+Mini window: ⋮ menu / − minimize / × close this profile
+⋮ → Arrange windows automatically tiles only running profiles
+Manage / close windows opens or closes profiles by number
+Screen off: frame fallback stays active, but Android may restrict CPU/network. Allow background activity and disable battery saver in device settings. Kill counts may differ from screen-on play.
+⋮ → Game and connection diagnostics for this profile
+⋮ → Disable automatic game dark screen to test without the game saver.</string>
+<string name="reload_game" formatted="false">Reload game</string>
+<string name="stop_confirm_title" formatted="false">Close the game and service?</string>
+<string name="stop_confirm_body" formatted="false">× closes the game. To keep playing in the background, use − instead.</string>
+<string name="close_game" formatted="false">Close game</string>
+<string name="start_before_fullscreen" formatted="false">Start floating mode before opening fullscreen</string>
+<string name="fold_dock" formatted="false">Collapse or expand the controls</string>
+<string name="fullscreen_to_mini" formatted="false">Open the game in a floating mini window</string>
+<string name="fullscreen_to_bubble" formatted="false">Return to the bubble and keep the current game</string>
+<string name="login_link_settings" formatted="false">Check Google return links</string>
+<string name="begin_google_login" formatted="false">Start Google Login</string>
+<string name="login_back" formatted="false">Back to game</string>
+<string name="login_instructions" formatted="false">Google Login
+
+1. Use Check Google return links if setup is incomplete.
+2. When ready, tap Begin Google Login.
+3. Choose your Google account and wait to return to the game.
+
+Only Google uses a system-browser Custom Tab. The game stays in the APK. Returning depends on your browser and game website support.</string>
+<string name="login_links_disabled" formatted="false">Google return links are not ready.
+
+Tap Check Google return links. If the domain is grey or shows another app, remove this domain from that app first, then enable it for Lumivara Online.
+
+Guest Login and game modes do not require Google return-link setup.</string>
+<string name="login_start_from_game" formatted="false">Open floating mode, then tap Sign in with Google in the game again.</string>
+<string name="login_preparing" formatted="false">Preparing Google Login from the app session…</string>
+<string name="login_prepare_failed" formatted="false">Could not prepare Google Login. Check your connection and try again.</string>
+<string name="login_cookie_failed" formatted="false">Could not save the login session. Please try again.</string>
+<string name="login_waiting" formatted="false">Waiting for Google to return to the app…
+
+If it stays in the browser, return here, check Google return links, then start a fresh login. If links are ready but it still stays there, your browser or the game website may not support returning to this APK.
+
+Browser and app sessions are separate. Do not send login codes or URLs in chat.</string>
+<string name="login_browser_missing" formatted="false">No browser available for Google Login. Install or update Chrome and try again.</string>
+<string name="login_callback_rejected" formatted="false">The login request does not match or has expired. Start Google Login from the game again.</string>
+<string name="app_subtitle" formatted="false">FPS edition · One screen / one account</string>
+<string name="setup_intro" formatted="false">Set up permissions before starting.
+Tap the bubble to reopen the current game. Minimize back to the icon without closing the game.</string>
+<string name="permission_overlay" formatted="false">1  Allow display over other apps</string>
+<string name="permission_notifications" formatted="false">2  Allow notifications</string>
+<string name="notifications_already_available" formatted="false">Notifications are already available on this Android version</string>
+<string name="permission_battery" formatted="false">3  Allow background activity / battery</string>
+<string name="battery_already_exempt" formatted="false">Battery optimization is already disabled</string>
+<string name="battery_dialog_title" formatted="false">Keep running in bubble mode</string>
+<string name="battery_dialog_body" formatted="false">This mode uses more battery and data. Allow Android to exclude this app from battery optimization?</string>
+<string name="open_settings" formatted="false">Open settings</string>
+<string name="permission_login_links" formatted="false">4  Check Google return links (for Google Login)</string>
+<string name="login_return_title" formatted="false">Return Google Login to the app</string>
+<string name="login_return_body" formatted="false">If lumivaraonline.com cannot be selected, check the app already handling this domain, then enable it for Lumivara Online using the setup guide. No uninstall or data clearing is needed.</string>
+<string name="start_bubble" formatted="false">Start bubble mode</string>
+<string name="resume_game" formatted="false">Open game / Continue playing</string>
+<string name="start_mini" formatted="false">Open floating mini window</string>
+<string name="stop_game_service" formatted="false">Stop service and close game</string>
+<string name="performance_note" formatted="false">Maximum FPS depends on display, hardware, heat and system settings; a fixed FPS is not guaranteed.</string>
+<string name="main_help" formatted="false">One game screen / one account
+Choose Maximum, 120 or 60 FPS on the main page
+Default render resolution is 85%; 70% reduces rendering load; 100% uses full resolution
+Start landscape fullscreen from the main page or ⛶
+▣ mini window / − bubble / × close game
+Drag the title to move; ↔ / ↕ / ◢ resize
+Fullscreen: › / ‹ fold the separate side dock
+App menu languages: TH / EN
+Use the game FPS counter to see actual results; display refresh rate does not guarantee game FPS
+Mini window: ⋮ → diagnostics samples only when opened
+Android may restrict processing/network when hidden or screen-off
+Google Login uses a supported system browser and returns to the app</string>
+<string name="oem_battery_note" formatted="false">For Samsung / Xiaomi / OPPO / vivo, set battery usage to Unrestricted and enable auto-start if available. Dismissing app settings from Recent Apps does not close the game, but some phones may still stop the service.</string>
+<string name="engine_auth_note" formatted="false">Uses your installed Android System WebView. General links open in the app and release resources when closed; the original game page stays alive.
+
+Google Login: step 4 helps identify conflicting link handlers. Choose your account in a Custom Tab, then return to the existing APK session when the device and browser support the return link.
+
+Real device login has not been verified. The game website may require additional integration.
+
+Android can still stop the service after Force stop, memory pressure or battery restrictions.</string>
+<string name="open_settings_manually" formatted="false">Open app settings manually</string>
+<string name="overlay_required" formatted="false">Allow display over other apps in step 1 first</string>
+<string name="notifications_required" formatted="false">Allow notifications, then tap Start again</string>
+<string name="service_start_failed" formatted="false">Could not start the service: </string>
+<string name="status_overlay" formatted="false">Display over apps: </string>
+<string name="ready" formatted="false">Ready</string>
+<string name="not_allowed" formatted="false">Not allowed</string>
+<string name="status_notifications" formatted="false">
+Notifications: </string>
+<string name="status_battery" formatted="false">
+Battery exemption: </string>
+<string name="not_exempt" formatted="false">Not exempt</string>
+<string name="status_service" formatted="false">
+Service: </string>
+<string name="running" formatted="false">Running</string>
+<string name="not_started" formatted="false">Not started</string>
+<string name="app_language" formatted="false">App language</string>
+<string name="language_picker_title" formatted="false">Choose app language</string>
+<string name="language_system" formatted="false">System default</string>
+<string name="language_thai" formatted="false">ภาษาไทย</string>
+<string name="language_english" formatted="false">English</string>
+<string name="language_scope" formatted="false">Changes app menus only. Choose the game language in game settings.</string>
+<string name="help_description" formatted="false">Help and reload game</string>
+<string name="fullscreen_description" formatted="false">Open landscape fullscreen</string>
+<string name="collapse_description" formatted="false">Return to the bubble and keep the current game</string>
+<string name="close_description" formatted="false">Close game and service</string>
+<string name="donate_button" formatted="false">☕ DONATE · Coffee</string>
+<string name="donate_title" formatted="false">☕ Buy me a coffee</string>
+<string name="donate_welcome" formatted="false">Any amount is welcome ☕
+Thank you for your support.</string>
+<string name="donate_scan_instructions" formatted="false">Scan the QR with your banking app and enter any amount you like.
+On the same phone: save the QR, then select the image in your banking app.</string>
+<string name="donate_save" formatted="false">Save QR image</string>
+<string name="donate_back" formatted="false">Back to settings</string>
+<string name="donate_qr_description" formatted="false">Coffee support QR image supplied by the developer</string>
+<string name="donate_image_failed" formatted="false">Could not open the QR image. Close this page and try again.</string>
+<string name="donate_saved" formatted="false">QR saved. Open your banking app and choose scan from an image.</string>
+<string name="donate_save_failed" formatted="false">Could not save the QR image. Please try again.</string>
+<string name="installation_video" formatted="false">▶ Installation and setup video</string>
+<string name="installation_video_title" formatted="false">Installation and setup</string>
+<string name="installation_video_replay" formatted="false">Replay</string>
+<string name="installation_video_back" formatted="false">Back to settings</string>
+<string name="installation_video_error" formatted="false">This device could not play the video. Tap Replay to try again.</string>
+<string name="installation_video_hint" formatted="false">Tap the video for play/pause and seeking controls. The tutorial is in Thai.</string>
+<string name="link_status_ready" formatted="false">Status: ready to handle lumivaraonline.com</string>
+<string name="link_status_disabled" formatted="false">Status: link handling for this APK is turned off</string>
+<string name="link_status_unselected" formatted="false">Status: lumivaraonline.com is not selected for this APK</string>
+<string name="link_status_unknown" formatted="false">Status: Android did not provide link state; check it manually</string>
+<string name="link_status_legacy" formatted="false">This Android version does not expose modern link-verification status. You may need to choose Lumivara Online when returning from login.</string>
+<string name="link_conflict_help" formatted="false">If the domain is grey and says “Open in Lumivara” or another app name, that app may already handle it. Android assigns a domain to one app at a time.
+
+Remove this domain from the previous app first, then enable it for Lumivara Online. Do not uninstall apps or clear their data.</string>
+<string name="link_other_apps" formatted="false">Other apps currently handling this domain</string>
+<string name="link_open_other" formatted="false">1  Open the previous app’s link settings</string>
+<string name="link_other_instructions" formatted="false">In this app’s settings, remove lumivaraonline.com from its supported links. If your device has no domain-specific option, turn off Open supported links for this app.
+
+This changes which app opens those web links. Then return to Lumivara Online.</string>
+<string name="link_no_other_detected" formatted="false">No conflicting app was found in the data Android permits this APK to inspect. If system settings show another app name, open that app’s link settings manually.</string>
+<string name="link_open_this" formatted="false">2  Enable links for Lumivara Online</string>
+<string name="link_this_instructions" formatted="false">Turn on Open supported links → Add link → select lumivaraonline.com → Add. Return here and the status refreshes automatically.
+
+This setup is for Google Login. Guest play can skip it.</string>
+<string name="link_recheck" formatted="false">Check status again</string>
+<string name="link_still_disabled" formatted="false">If it is still unavailable after disabling the previous handler, check your device’s App info settings. Automatic verification also requires game website support. This APK cannot grant itself link handling.</string>
+<string name="link_done" formatted="false">Return to previous screen</string>
+<string name="browser_renderer_closed" formatted="false">Android stopped this web page renderer. Please open the link again.</string>
+<string name="normal_window" formatted="false">Normal window</string>
+<string name="window_actions" formatted="false">Window menu: arrange, manage and fullscreen</string>
+<string name="arrange_none" formatted="false">Open the game first to view diagnostics.</string>
+<string name="arrange_done" formatted="false">Running windows arranged. You can still drag or resize them.</string>
+<string name="arrange_failed" formatted="false">Some windows could not be arranged. The screen may be too small, or a profile closed during arrangement. Rotate the device or use fewer windows, then try again.</string>
+<string name="diagnostics" formatted="false">Game and connection diagnostics</string>
+<string name="diagnostics_help" formatted="false">Samples only when opened; no continuous logging during play. Reopen to view the latest captured values.</string>
+<string name="copy_report" formatted="false">Copy report</string>
+<string name="report_copied" formatted="false">Report copied</string>
+<string name="saver_setting" formatted="false">Disable automatic game dark screen</string>
+<string name="saver_explanation" formatted="false">Set the game dark-screen preference to “off” for this profile to test separately from device screen-off.
+If the dark screen is active, double-tap it in the game first. This cannot guarantee background connectivity and may use more battery.</string>
+<string name="saver_apply" formatted="false">Set to off</string>
+<string name="saver_applied" formatted="false">Automatic game dark screen disabled. Double-tap in the game to exit if already active.</string>
+<string name="saver_unavailable" formatted="false">Setting not available yet. Finish loading the game or use its settings.</string>
+<string name="fps_intro" formatted="false">One game screen with hardware rendering, FPS and render-resolution settings.</string>
+<string name="fps_setting" formatted="false">FPS limit</string>
+<string name="fps_max" formatted="false">Maximum (uncapped)</string>
+<string name="fps_play" formatted="false">Play landscape fullscreen</string>
+<string name="render_setting" formatted="false">Render resolution</string>
+<string name="render_help" formatted="false">Default 85%. 70% reduces rendering load further but image/text layout may change. 100% gives full resolution.</string>
+</resources>

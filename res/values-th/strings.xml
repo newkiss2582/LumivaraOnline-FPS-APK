@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="floating_channel" formatted="false">Lumivara — โหมดปุ่มลอย</string>
+<string name="channel_description" formatted="false">บริการเกมเบื้องหลัง กดเปิดเกมหรือหยุดได้ทุกเวลา</string>
+<string name="overlay_revoked" formatted="false">สิทธิ์แสดงทับแอปถูกปิด โปรดเปิดแอปเพื่อตั้งค่า</string>
+<string name="overlay_failed" formatted="false">สร้างหน้าต่างลอยไม่ได้: </string>
+<string name="notification_title" formatted="false">Lumivara Online กำลังทำงาน</string>
+<string name="notification_fullscreen" formatted="false">เต็มหน้าจอแนวนอน · กด − เพื่อย่อเป็นปุ่มลอย</string>
+<string name="notification_mini" formatted="false">จอเล็ก · ลากมุม ◢ เพื่อปรับขนาด</string>
+<string name="notification_window" formatted="false">หน้าต่างเกมเปิดอยู่ · กด ▣ เพื่อเป็นจอเล็ก</string>
+<string name="notification_bubble" formatted="false">โหมดปุ่มลอย · แตะไอคอนเพื่อเล่นต่อ</string>
+<string name="open_game" formatted="false">เปิดเกม</string>
+<string name="stop_mode" formatted="false">หยุดโหมด</string>
+<string name="toggle_mini" formatted="false">สลับจอเล็กกับหน้าต่างปกติ</string>
+<string name="bubble_description" formatted="false">Lumivara Online — แตะเพื่อเล่นต่อ ลากเพื่อย้าย</string>
+<string name="resize" formatted="false">ปรับขนาด</string>
+<string name="resize_width" formatted="false">ลากปรับความกว้าง</string>
+<string name="resize_height" formatted="false">ลากปรับความสูง</string>
+<string name="resize_both" formatted="false">ลากปรับกว้างและสูงอิสระ</string>
+<string name="https_only" formatted="false">เปิดเฉพาะลิงก์ HTTPS ในแอป</string>
+<string name="connection_failed" formatted="false">เชื่อมต่อเกมไม่ได้ ตรวจอินเทอร์เน็ต แล้วกดโหลดใหม่จาก ?</string>
+<string name="renderer_recovered" formatted="false">Android ปิดตัวแสดงผล จึงต้องโหลดเกมใหม่</string>
+<string name="loading_prefix" formatted="false">กำลังโหลด </string>
+<string name="ok" formatted="false">ตกลง</string>
+<string name="cancel" formatted="false">ยกเลิก</string>
+<string name="google_notice_title" formatted="false">เริ่ม Google Login จากหน้าเกม</string>
+<string name="google_notice_body" formatted="false">กด Sign in with Google จากหน้าเกม แล้วใช้หน้าตรวจแก้ลิงก์กลับ Google ก่อนเริ่มล็อกอิน
+
+เฉพาะหน้าของ Google เปิดด้วย Custom Tab ส่วนเกมใช้เซสชันเดิมใน APK การรับลิงก์กลับยังขึ้นกับเบราว์เซอร์และเว็บเกม</string>
+<string name="back_to_game" formatted="false">กลับไปหน้าเกม</string>
+<string name="dismiss_message" formatted="false">ปิดข้อความ</string>
+<string name="login_launch_failed" formatted="false">เปิดหน้าล็อกอินไม่ได้ โปรดเปิดหน้าตั้งค่าแอปแล้วลองอีกครั้ง</string>
+<string name="google_success" formatted="false">Google Login กลับเข้าแอปแล้ว</string>
+<string name="google_no_session" formatted="false">ยังไม่พบเซสชัน Google ในแอป โปรดลองใหม่หรือตรวจการตั้งค่าลิงก์กลับ</string>
+<string name="in_app_browser" formatted="false">เบราว์เซอร์ในแอป</string>
+<string name="return_game" formatted="false">กลับเกม</string>
+<string name="fullscreen_failed" formatted="false">เปิดเต็มหน้าจอไม่ได้ โปรดเปิดเกมแล้วลองอีกครั้ง</string>
+<string name="help_title" formatted="false">Lumivara FPS · วิธีใช้ 1.0</string>
+<string name="overlay_help" formatted="false">▣ เปิดจอเล็ก / ⋮ → หน้าต่างปกติ เพื่อกลับจอปกติ
+ลากชื่อเกมเพื่อย้ายหน้าต่าง
+ขอบล่าง: ↔ กว้าง / ↕ สูง / ◢ ทั้งสองแนว
+ปรับหน้าต่างอิสระ ไม่ล็อก 16:9
+พื้นที่เกมแยกจากปุ่มแอปและขอบปรับขนาด
+− ย่อเป็นไอคอน โดยเก็บเกมเดิม
+⛶ เปิดเต็มหน้าจอแนวนอน
+ในเต็มจอ: › / ‹ พับหรือเปิดแถบข้าง
+ในเต็มจอ: ▣ เปิดจอเล็ก / − ย่อเป็นไอคอน
+ตัวเลือกภาษาและ dropdown เปิดเป็นรายการในเกม
+
+Android หรือเซิร์ฟเวอร์ยังอาจหยุดเกมได้
+Google Login ยังคงเป็นรุ่นทดลอง
+หน้าเว็บจากลิงก์เก็บไว้เมื่อย่อหรือเปลี่ยนโหมด
+กดกลับเกมเพื่อปิดหน้าเว็บ
+จอเล็ก: ⋮ เมนูจอ / − ย่อ / × ปิดโปรไฟล์นี้
+⋮ → จัดเรียงจออัตโนมัติ เรียงเฉพาะโปรไฟล์ที่เปิดอยู่
+จัดการ / ปิดแต่ละจอ เปิดหรือปิดตามเลขโปรไฟล์
+ปิดจอ: ตัวช่วยเดินเกมจะทำงานด้วย แต่ Android อาจจำกัด CPU/เน็ตได้ อนุญาตทำงานเบื้องหลังและปิดการประหยัดแบตในตั้งค่าของเครื่อง จำนวนมอนอาจไม่เท่าตอนเปิดจอ
+⋮ → ตรวจสถานะเกมและการเชื่อมต่อ เพื่อดูรายงานของโปรไฟล์นี้
+⋮ → ตั้งจอดำของเกมเป็นไม่เปิดเอง ช่วยทดสอบแยกโหมดจอดำของเกม</string>
+<string name="reload_game" formatted="false">โหลดเกมใหม่</string>
+<string name="stop_confirm_title" formatted="false">ปิดเกมและบริการ?</string>
+<string name="stop_confirm_body" formatted="false">ปุ่ม × จะปิดเกมจริง หากต้องการเล่นต่อเบื้องหลัง ให้กด − แทน</string>
+<string name="close_game" formatted="false">ปิดเกม</string>
+<string name="start_before_fullscreen" formatted="false">เปิดโหมดปุ่มลอยก่อนเข้าเต็มหน้าจอ</string>
+<string name="fold_dock" formatted="false">ซ่อนหรือแสดงแถบควบคุม</string>
+<string name="fullscreen_to_mini" formatted="false">เปิดเกมเป็นจอเล็กลอย</string>
+<string name="fullscreen_to_bubble" formatted="false">ย่อเป็นปุ่มลอยและเก็บเกมเดิม</string>
+<string name="login_link_settings" formatted="false">ตรวจแก้ลิงก์กลับ Google</string>
+<string name="begin_google_login" formatted="false">เริ่ม Google Login</string>
+<string name="login_back" formatted="false">กลับเข้าเกม</string>
+<string name="login_instructions" formatted="false">เข้าสู่ระบบ Google
+
+1. กดตรวจแก้ลิงก์กลับ Google หากยังไม่ได้ตั้งค่า
+2. เมื่อสถานะพร้อม กดเริ่ม Google Login
+3. เลือกบัญชีในหน้าของ Google แล้วรอกลับเข้าเกม
+
+เฉพาะหน้า Google ใช้ Custom Tab ของเบราว์เซอร์ระบบ เกมอยู่ใน APK เดิม การรับผลกลับขึ้นกับเบราว์เซอร์และการรองรับของเว็บเกม</string>
+<string name="login_links_disabled" formatted="false">ยังรับลิงก์ Google กลับเข้าแอปไม่ได้
+
+กดตรวจแก้ลิงก์กลับ Google ถ้าโดเมนเป็นสีเทาหรือมีชื่อแอปอื่น ต้องเอาโดเมนออกจากแอปนั้นก่อน แล้วเปิดให้ Lumivara Online
+
+Guest Login และโหมดเกมใช้ได้โดยไม่ตั้งค่าลิงก์ Google</string>
+<string name="login_start_from_game" formatted="false">เปิดโหมดเกมก่อน แล้วกด Sign in with Google ในหน้าเกมอีกครั้ง</string>
+<string name="login_preparing" formatted="false">กำลังเตรียม Google Login จากเซสชันของแอป…</string>
+<string name="login_prepare_failed" formatted="false">เตรียม Google Login ไม่สำเร็จ ตรวจอินเทอร์เน็ตแล้วลองใหม่</string>
+<string name="login_cookie_failed" formatted="false">เก็บเซสชันล็อกอินไม่ได้ กรุณาลองใหม่</string>
+<string name="login_waiting" formatted="false">รอ Google Login กลับเข้าแอป…
+
+ถ้าค้างในเบราว์เซอร์ ให้กลับมาหน้านี้และกดตรวจแก้ลิงก์กลับ Google จากนั้นเริ่มล็อกอินใหม่ ถ้าสถานะพร้อมแต่ยังไม่กลับ เบราว์เซอร์หรือเว็บเกมอาจยังไม่รองรับการส่งผลเข้า APK
+
+เซสชันในเบราว์เซอร์กับแอปแยกกัน ไม่ต้องคัดลอกรหัสหรือ URL ล็อกอินมาส่งในแชต</string>
+<string name="login_browser_missing" formatted="false">ไม่พบเบราว์เซอร์สำหรับ Google Login โปรดติดตั้งหรืออัปเดต Chrome แล้วลองอีกครั้ง</string>
+<string name="login_callback_rejected" formatted="false">คำขอล็อกอินไม่ตรงกันหรือหมดอายุ โปรดเริ่ม Google Login จากในเกมอีกครั้ง</string>
+<string name="app_subtitle" formatted="false">รุ่นเน้น FPS · หนึ่งจอ / หนึ่งไอดี</string>
+<string name="setup_intro" formatted="false">ตั้งค่าสิทธิ์ก่อนเริ่ม
+แตะปุ่มลอยเพื่อเปิดเกมเดิม กดปุ่มย่อเพื่อกลับเป็นไอคอน โดยไม่ปิดหน้าเกม</string>
+<string name="permission_overlay" formatted="false">1  อนุญาตแสดงทับแอปอื่น</string>
+<string name="permission_notifications" formatted="false">2  อนุญาตการแจ้งเตือน</string>
+<string name="notifications_already_available" formatted="false">Android รุ่นนี้เปิดการแจ้งเตือนได้อยู่แล้ว</string>
+<string name="permission_battery" formatted="false">3  อนุญาตทำงานเบื้องหลัง / แบตเตอรี่</string>
+<string name="battery_already_exempt" formatted="false">ยกเว้นการประหยัดแบตแล้ว</string>
+<string name="battery_dialog_title" formatted="false">ทำงานต่อขณะเป็นปุ่มลอย</string>
+<string name="battery_dialog_body" formatted="false">โหมดนี้ใช้แบตเตอรี่และอินเทอร์เน็ตมากขึ้น ให้ Android ยกเว้นการประหยัดแบตสำหรับแอปนี้หรือไม่?</string>
+<string name="open_settings" formatted="false">เปิดการตั้งค่า</string>
+<string name="permission_login_links" formatted="false">4  ตรวจแก้ลิงก์กลับ Google (สำหรับ Google Login)</string>
+<string name="login_return_title" formatted="false">รับ Google Login กลับเข้าแอป</string>
+<string name="login_return_body" formatted="false">หากเลือก lumivaraonline.com ไม่ได้ ให้ตรวจแอปที่รับลิงก์นี้อยู่ก่อน แล้วเปิดให้ Lumivara Online ในหน้าช่วยตั้งค่า ไม่ต้องถอนการติดตั้งหรือล้างข้อมูล</string>
+<string name="start_bubble" formatted="false">เริ่มโหมดปุ่มลอย</string>
+<string name="resume_game" formatted="false">เปิดหน้าเกม / เล่นต่อ</string>
+<string name="start_mini" formatted="false">เปิดเกมแบบจอเล็กลอย</string>
+<string name="stop_game_service" formatted="false">หยุดโหมดและปิดเกม</string>
+<string name="performance_note" formatted="false">FPS สูงสุดขึ้นกับจอ ชิป ความร้อน และการตั้งค่าเครื่อง ไม่รับประกัน FPS คงที่</string>
+<string name="main_help" formatted="false">เล่นเกมได้หนึ่งจอ / หนึ่งไอดี
+ตั้งค่า FPS สูงสุด, 120 หรือ 60 ในหน้าหลัก
+ความละเอียด 85% เป็นค่าเริ่มต้น; 70% ลดภาระวาดภาพ; 100% ภาพเต็มความละเอียด
+เล่นเต็มจอแนวนอนจากหน้าหลักหรือปุ่ม ⛶
+▣ จอเล็ก / − ปุ่มลอย / × ปิดเกม
+ลากชื่อเกมเพื่อย้ายหน้าต่าง; ↔ / ↕ / ◢ ปรับขนาด
+ในเต็มจอ › / ‹ พับแถบปุ่ม; ปุ่มไม่ทับพื้นที่เกม
+เลือกภาษาเมนู TH / EN จากหน้าหลัก
+ใช้ FPS ในเกมเพื่อดูผลจริง; รีเฟรชเรตจอไม่ใช่ค่า FPS ที่รับประกัน
+จอเล็ก: ⋮ → ข้อมูลเกมและการเชื่อมต่อ เก็บค่าเมื่อเปิดเท่านั้น
+ปิดจอหรือซ่อนเกม Android อาจจำกัดการทำงานและเครือข่าย
+Google Login ใช้เบราว์เซอร์ที่ระบบรองรับ แล้วกลับมาเล่นในแอป</string>
+<string name="oem_battery_note" formatted="false">สำหรับ Samsung / Xiaomi / OPPO / vivo ให้ตั้งแบตเตอรี่เป็น “ไม่จำกัด” และอนุญาตเริ่มทำงานอัตโนมัติถ้ามี แอปไม่ปิดเกมเมื่อปัดหน้าตั้งค่าออกจาก Recent Apps แต่เครื่องบางรุ่นยังหยุดบริการได้</string>
+<string name="engine_auth_note" formatted="false">ใช้ Android System WebView ที่มีอยู่ในเครื่อง ลิงก์ทั่วไปเปิดในแอป และคืนทรัพยากรเมื่อปิดหน้าลิงก์ ส่วนหน้าเกมเดิมยังอยู่
+
+Google Login: ขั้นตอน 4 ช่วยตรวจและแก้แอปที่รับลิงก์ชนกัน เลือกบัญชีผ่าน Custom Tab แล้วรับผลกลับเข้าเซสชัน APK เดิม เมื่อเครื่องและเบราว์เซอร์ส่งลิงก์กลับได้
+
+ยังไม่ได้ทดสอบล็อกอินจริงบนมือถือ อาจต้องแก้การเชื่อมระบบฝั่งเว็บเกมเพิ่มเติม
+
+Android ยังอาจหยุดบริการจากการบังคับหยุด หน่วยความจำไม่พอ หรือข้อจำกัดแบตเตอรี่</string>
+<string name="open_settings_manually" formatted="false">เปิดการตั้งค่าแอปด้วยตนเอง</string>
+<string name="overlay_required" formatted="false">กรุณาอนุญาตแสดงทับแอปอื่นในขั้นตอน 1 ก่อน</string>
+<string name="notifications_required" formatted="false">อนุญาตการแจ้งเตือน แล้วกดเริ่มอีกครั้ง</string>
+<string name="service_start_failed" formatted="false">เริ่มบริการไม่ได้: </string>
+<string name="status_overlay" formatted="false">แสดงทับแอป: </string>
+<string name="ready" formatted="false">พร้อม</string>
+<string name="not_allowed" formatted="false">ยังไม่อนุญาต</string>
+<string name="status_notifications" formatted="false">
+การแจ้งเตือน: </string>
+<string name="status_battery" formatted="false">
+ยกเว้นประหยัดแบต: </string>
+<string name="not_exempt" formatted="false">ยังไม่ยกเว้น</string>
+<string name="status_service" formatted="false">
+บริการ: </string>
+<string name="running" formatted="false">กำลังทำงาน</string>
+<string name="not_started" formatted="false">ยังไม่เริ่ม</string>
+<string name="app_language" formatted="false">ภาษาแอป</string>
+<string name="language_picker_title" formatted="false">เลือกภาษาแอป</string>
+<string name="language_system" formatted="false">ตามภาษาเครื่อง</string>
+<string name="language_thai" formatted="false">ภาษาไทย</string>
+<string name="language_english" formatted="false">English</string>
+<string name="language_scope" formatted="false">เปลี่ยนเฉพาะเมนูแอป ภาษาในเกมให้เลือกจากตั้งค่าเกม</string>
+<string name="help_description" formatted="false">วิธีใช้และโหลดเกมใหม่</string>
+<string name="fullscreen_description" formatted="false">เปิดเต็มหน้าจอแนวนอน</string>
+<string name="collapse_description" formatted="false">ย่อเป็นปุ่มลอยและเก็บเกมเดิม</string>
+<string name="close_description" formatted="false">ปิดเกมและบริการ</string>
+<string name="donate_button" formatted="false">☕ DONATE ค่ากาแฟ</string>
+<string name="donate_title" formatted="false">☕ ค่ากาแฟ</string>
+<string name="donate_welcome" formatted="false">แล้วแต่ที่ให้เลยนะค้าบ ☕
+ขอบคุณสำหรับกำลังใจครับ</string>
+<string name="donate_scan_instructions" formatted="false">สแกน QR ด้วยแอปธนาคาร แล้วใส่จำนวนเงินตามสะดวก
+ใช้มือถือเครื่องเดียวกัน: บันทึก QR แล้วเลือกรูปนี้ในแอปธนาคาร</string>
+<string name="donate_save" formatted="false">บันทึก QR</string>
+<string name="donate_back" formatted="false">กลับหน้าตั้งค่า</string>
+<string name="donate_qr_description" formatted="false">QR ค่ากาแฟจากภาพที่ผู้พัฒนาให้ไว้</string>
+<string name="donate_image_failed" formatted="false">เปิดภาพ QR ไม่สำเร็จ กรุณาปิดหน้านี้แล้วลองใหม่</string>
+<string name="donate_saved" formatted="false">บันทึก QR แล้ว เปิดแอปธนาคารและเลือกสแกนจากรูปภาพได้เลยครับ</string>
+<string name="donate_save_failed" formatted="false">บันทึก QR ไม่สำเร็จ กรุณาลองอีกครั้ง</string>
+<string name="installation_video" formatted="false">▶ คลิปสอนติดตั้งและตั้งค่า</string>
+<string name="installation_video_title" formatted="false">วิธีติดตั้งและตั้งค่า</string>
+<string name="installation_video_replay" formatted="false">เล่นซ้ำ</string>
+<string name="installation_video_back" formatted="false">กลับหน้าตั้งค่า</string>
+<string name="installation_video_error" formatted="false">เล่นคลิปไม่ได้บนเครื่องนี้ กรุณากดเล่นซ้ำเพื่อลองอีกครั้ง</string>
+<string name="installation_video_hint" formatted="false">แตะวิดีโอเพื่อแสดงปุ่มเล่น/หยุดและแถบเลื่อน • คลิปนี้มีคำอธิบายภาษาไทย</string>
+<string name="link_status_ready" formatted="false">สถานะ: พร้อมรับลิงก์ lumivaraonline.com</string>
+<string name="link_status_disabled" formatted="false">สถานะ: ปิดการรับลิงก์สำหรับ APK นี้อยู่</string>
+<string name="link_status_unselected" formatted="false">สถานะ: ยังไม่ได้เลือก lumivaraonline.com ให้ APK นี้</string>
+<string name="link_status_unknown" formatted="false">สถานะ: Android ไม่ส่งข้อมูลการรับลิงก์ กรุณาตรวจด้วยตนเอง</string>
+<string name="link_status_legacy" formatted="false">Android รุ่นนี้ไม่มีสถานะยืนยันลิงก์แบบใหม่ อาจต้องเลือกเปิดด้วย Lumivara Online เมื่อล็อกอินกลับ</string>
+<string name="link_conflict_help" formatted="false">ถ้าโดเมนเป็นสีเทาและเขียนว่า “เปิดใน Lumivara” หรือชื่อแอปอื่น แสดงว่าอาจมีแอปนั้นรับลิงก์อยู่ Android ให้แอปเดียวรับโดเมนเดียวกัน
+
+ปิดการรับโดเมนนี้ของแอปเดิมก่อน แล้วค่อยเปิดให้ Lumivara Online ไม่ต้องลบแอปหรือล้างข้อมูล</string>
+<string name="link_other_apps" formatted="false">แอปอื่นที่รับโดเมนนี้อยู่</string>
+<string name="link_open_other" formatted="false">1  ตั้งค่าลิงก์ของแอปเดิม</string>
+<string name="link_other_instructions" formatted="false">ในหน้าตั้งค่าของแอปนี้ เอา lumivaraonline.com ออกจากรายการลิงก์ที่เปิด หากเครื่องไม่มีตัวเลือกแยกโดเมน ให้ปิด “เปิดลิงก์ที่รองรับ” ของแอปนี้
+
+การเปลี่ยนนี้กระทบการเปิดลิงก์เข้าแอปเดิม จากนั้นกดย้อนกลับมาที่ Lumivara Online</string>
+<string name="link_no_other_detected" formatted="false">ไม่พบแอปที่ชนกันจากข้อมูลที่ Android อนุญาตให้ตรวจ หากหน้าระบบแสดงชื่อแอปอื่น ให้ไปตั้งค่าลิงก์ของแอปชื่อนั้นด้วยตนเอง</string>
+<string name="link_open_this" formatted="false">2  เปิดลิงก์ให้ Lumivara Online</string>
+<string name="link_this_instructions" formatted="false">เปิด “เปิดลิงก์ที่รองรับ” → เพิ่มลิงก์ → เลือก lumivaraonline.com → เพิ่ม แล้วกดย้อนกลับ หน้านี้จะตรวจสถานะใหม่ให้
+
+ตั้งค่านี้เฉพาะการใช้ Google Login เล่นแบบ Guest ได้โดยข้ามขั้นตอนนี้</string>
+<string name="link_recheck" formatted="false">ตรวจสถานะอีกครั้ง</string>
+<string name="link_still_disabled" formatted="false">ถ้ายังเลือกไม่ได้ทั้งที่ปิดแอปเดิมแล้ว ให้ตรวจหน้าตั้งค่าข้อมูลแอปของเครื่อง การยืนยันอัตโนมัติต้องรองรับจากเว็บเกมด้วย แอปไม่สามารถเปิดสิทธิ์นี้แทนคุณได้</string>
+<string name="link_done" formatted="false">กลับไปหน้าก่อนหน้า</string>
+<string name="browser_renderer_closed" formatted="false">Android ปิดตัวแสดงผลของหน้าเว็บนี้ กรุณาเปิดลิงก์อีกครั้ง</string>
+<string name="normal_window" formatted="false">หน้าต่างปกติ</string>
+<string name="window_actions" formatted="false">เมนูจอ: จัดเรียง จัดการ และเต็มจอ</string>
+<string name="arrange_none" formatted="false">เปิดเกมก่อนเพื่อดูข้อมูล</string>
+<string name="arrange_done" formatted="false">จัดเรียงจอที่เปิดอยู่แล้ว ลากหรือปรับขนาดต่อได้</string>
+<string name="arrange_failed" formatted="false">จัดเรียงบางจอไม่ได้ พื้นที่อาจเล็กเกินไปหรือจอถูกปิดระหว่างจัดเรียง ลองหมุนจอหรือเปิดจอน้อยลงแล้วกดจัดเรียงใหม่</string>
+<string name="diagnostics" formatted="false">ตรวจสถานะเกมและการเชื่อมต่อ</string>
+<string name="diagnostics_help" formatted="false">บันทึกข้อมูลเมื่อกดเปิดเท่านั้น ไม่มีการเก็บประวัติตลอดเวลาระหว่างเล่น · เปิดอีกครั้งเพื่อดูค่าที่เก็บครั้งล่าสุด</string>
+<string name="copy_report" formatted="false">คัดลอกรายงาน</string>
+<string name="report_copied" formatted="false">คัดลอกรายงานแล้ว</string>
+<string name="saver_setting" formatted="false">ตั้งจอดำของเกมเป็นไม่เปิดเอง</string>
+<string name="saver_explanation" formatted="false">ตั้งตัวเลือกจอดำประหยัดแบตในเกมเป็น “ไม่เปิดเอง” สำหรับโปรไฟล์นี้ เพื่อทดสอบแยกจากการปิดหน้าจอมือถือ
+ถ้าจอดำเปิดอยู่ ให้แตะ 2 ครั้งในเกมเพื่อกลับก่อน การตั้งนี้ไม่รับประกันเน็ตเบื้องหลังและอาจใช้แบตมากขึ้น</string>
+<string name="saver_apply" formatted="false">ตั้งเป็นไม่เปิดเอง</string>
+<string name="saver_applied" formatted="false">ตั้งจอดำของเกมเป็นไม่เปิดเองแล้ว ถ้าเปิดอยู่ให้แตะสองครั้งเพื่อออก</string>
+<string name="saver_unavailable" formatted="false">ยังไม่พบตัวเลือกนี้ เปิดเกมให้โหลดเสร็จหรือใช้การตั้งค่าในเกมก่อน</string>
+<string name="fps_intro" formatted="false">เปิดเกมเพียงหนึ่งจอ ใช้การเรนเดอร์ด้วยฮาร์ดแวร์ พร้อมตั้งค่า FPS และความละเอียดภาพ</string>
+<string name="fps_setting" formatted="false">จำกัด FPS</string>
+<string name="fps_max" formatted="false">สูงสุด (ไม่จำกัด)</string>
+<string name="fps_play" formatted="false">เล่นเต็มจอแนวนอน</string>
+<string name="render_setting" formatted="false">ความละเอียดเรนเดอร์</string>
+<string name="render_help" formatted="false">ค่าเริ่มต้น 85% · 70% ลดภาระการวาดภาพมากขึ้น แต่ภาพและตัวอักษรอาจเปลี่ยนขนาด · 100% ภาพละเอียดที่สุด</string>
+</resources>
